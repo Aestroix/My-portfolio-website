@@ -212,7 +212,7 @@ header {
 /*  designing the about me section */
 .bottom{
     width: 100%;
-    height: 50%;
+    
     border-top: 10px solid rgba(255, 0, 0, 0.678);
     color: white;
     display: flex;
@@ -256,12 +256,58 @@ header {
 .about{
     border-bottom: 1px solid red;
     border-left: 2px solid red;
+    padding-left: 5%;
 }
 
+/* DESIGING THE SKILLS */
 
+.skills{
+    border-bottom: 1px solid red;
+    border-left: 2px solid red;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    width: 100%;
 
+}
+.title1{
+    text-align: center;
+}
+.skills h3{
+    line-height: 5px;
+}
 
-
+.bar{
+    border: 1px solid rgb(27, 26, 26);
+    color: orange;
+    font-size: 3px;
+    position: absolute;
+}
+.ninety{
+    position: relative;
+    width: 90%;
+    background-color: orange;
+}
+.hundred{
+    position: relative;
+    width: 100%;
+    background-color: green;
+}
+.sixtyfive{
+    position: relative;
+    width: 65%;
+    background-color: pink;
+}
+.eighty{
+    position: relative;
+    width: 80%;
+    background-color: white;
+}
+.fifty{
+    position: relative;
+    width: 50%;
+    background-color: blue;
+}
 
 
 
