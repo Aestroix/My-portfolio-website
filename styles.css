@@ -225,25 +225,24 @@ header {
 }
 
 .info{
-    float: left;
-    width: 60%;
-    text-align: justify;
-    font-size: 20px;
+    text-align: left;
+    font-size: 25px;
     margin-left: 5%;
     padding-right: 5%;
-    border-right: 2px solid white;
+
 
 }
 
     
     
-}
+/*
 .photo{
     float: right;
     width: 40%;
     
 
 }
+
 .photo img{
     float: right;
     width: 20%;
@@ -252,7 +251,7 @@ header {
     padding-bottom: 5%;
     padding-left: 5%;
 }
-
+*/
 .about{
     border-bottom: 1px solid red;
     border-left: 2px solid red;
@@ -308,12 +307,37 @@ header {
     width: 50%;
     background-color: blue;
 }
+.seventy{
+    position: relative;
+    width: 70%;
+    background-color: rgb(255, 1, 242);
+}
 
 
+/* DESIGING PROJECTS */
+.projects{
+    border-bottom: 1px solid red;
+    border-left: 2px solid red;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    width: 100%;
 
+}
 
+.project h3{
+    font-size: 25px;
+    font-family: fantasy;
+}
+.project p{
+    font-size: 20px;
+}
 
-
+.my_project{
+    background-color: rgba(20, 19, 17, 0.5);
+    width: 20%;
+    border: 1px solid white;
+}
 
 
 
