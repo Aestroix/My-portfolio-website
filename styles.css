@@ -5,7 +5,6 @@
 
 body{
     background-color: black;
-    background-image: ;
 }
 
 .container {
@@ -37,6 +36,8 @@ header {
 
 .header-left{
     float: left;
+    text-align: left;
+    width: 30%;
 }
 
 .header-right{
@@ -65,7 +66,10 @@ header {
 
 .left{
     color: white;
-    margin: 15% 5%;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
     
 
 }
@@ -76,6 +80,7 @@ header {
     height: 20px;
     width: 40%;
     font-family: fantasy;
+    line-height: 15px;
 }
 .left h1{
     font-size: 80px;
@@ -87,9 +92,10 @@ header {
 .top{
     padding-left: 5%;
     display: flex;
+    border-left: 2px solid red;
 }
 
-.left h2:before{
+.changing:before{
     display: inline-block;
     content: 'COMPETITIVE CODER';
     color: red;
@@ -97,8 +103,9 @@ header {
     font-family: monospace;
     text-align: justify;
     animation-name: head;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
+    margin-bottom: 50px;
 }
 
 @keyframes head {
@@ -108,12 +115,152 @@ header {
     30% { opacity:0;}
     40% { opacity:1; content: "Musician"}
     50% { opacity:0;}
-    60% {opacity:1; content: "Good Communicator"}
+    60% {opacity:1; content: "Photographer"}
     70% {opacity:0;}
     80% {opacity:1; content: "Sophomore"}
     90% {opacity:0;}
     100% {opacity:1; content: "Innovator, Believer"}
 }
+
+.left_bottom h2{
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    line-height: 10px;
+}
+
+
+
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .linkedin {
+    background-color: royalblue;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .instagram{
+      background-color: red;
+  }
+  .codeforces{
+    background-color: rgba(250, 226, 9, 0.7);
+}
+.gmail{
+    background-color: cornflowerblue;
+}
+.github{
+    background-color: black;
+    border: 1px solid white;
+}
+.youtube{
+    background-color: crimson;
+}
+  .btn {
+    display: flex;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 15px;
+  }
+
+  .message {
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 3px white;
+  }
+
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+
+
+
+/* DESIGING THE BOTTOM PORTION */
+
+/*  designing the about me section */
+.bottom{
+    width: 100%;
+    height: 50%;
+    border-top: 10px solid rgba(255, 0, 0, 0.678);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.info{
+    float: left;
+    width: 60%;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 5%;
+    padding-right: 5%;
+    border-right: 2px solid white;
+
+}
+
+    
+    
+}
+.photo{
+    float: right;
+    width: 40%;
+    
+
+}
+.photo img{
+    float: right;
+    width: 20%;
+    height: 15%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.about{
+    border-bottom: 1px solid red;
+    border-left: 2px solid red;
+}
+
+
+
+
 
 
 
