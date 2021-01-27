@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    background-image: ;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+.special{
+    color: red;
+}
+/* DESIGING THE HEADER */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(20, 19, 17, 0.5);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 10%;
+    color: white;
+    margin-left: 10%;
+    font-size: 30px;
+    line-height: 10px;    
+}
+
+
+.header-left{
+    float: left;
+}
+
+.header-right{
+    float: right;
+}
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all .7s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 145, 0, 0.534);
+}
+
+/* DESIGING THE TOP SECTION */
+.container img{
+    float: right;
+    width: 50%;
+}
+
+.left{
+    color: white;
+    margin: 15% 5%;
+    
+
+}
+
+.left h4{
+    letter-spacing: 1px;
+    font-size: 35px;
+    height: 20px;
+    width: 40%;
+    font-family: fantasy;
+}
+.left h1{
+    font-size: 80px;
+    word-wrap: normal;
+    line-height: 20px;
+    letter-spacing: 8px;
+}
+
+.top{
+    padding-left: 5%;
+    display: flex;
+}
+
+.left h2:before{
+    display: inline-block;
+    content: 'COMPETITIVE CODER';
+    color: red;
+    font-size: 50px;
+    font-family: monospace;
+    text-align: justify;
+    animation-name: head;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes head {
+    0% { opacity:1;}
+    10% { opacity:0;}
+    20% { opacity:1; content: "Front-End Developer";}
+    30% { opacity:0;}
+    40% { opacity:1; content: "Musician"}
+    50% { opacity:0;}
+    60% {opacity:1; content: "Good Communicator"}
+    70% {opacity:0;}
+    80% {opacity:1; content: "Sophomore"}
+    90% {opacity:0;}
+    100% {opacity:1; content: "Innovator, Believer"}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*span:before{
+    content : '';
+    animation: animate infinite 5s;
+}
+@keyframes animate{
+    0%{
+        content: "Good !!";
+    }
+    33%{
+        content: "Awesome !";
+    
+    }
+    66%{
+        content: " Coder by heart";
+    }
+    100%{
+        content: " yeah"
+    }
+}*/
