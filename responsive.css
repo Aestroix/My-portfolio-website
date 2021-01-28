@@ -10,6 +10,9 @@
         line-height: 20px;
         letter-spacing: 8px;
     }
+    .my_project{
+        width: 40%;
+    }
 }
 
 
@@ -42,5 +45,8 @@
         width: 40%;
         font-family: fantasy;
         line-height: 15px;
+    }
+    .my_project{
+        width: 50%;
     }
 }
