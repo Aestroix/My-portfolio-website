@@ -53,9 +53,12 @@
         font-size: 100%;
     }
     .left h1{
-        font-size: 200%;
+        font-size: 150%;
         word-wrap: normal;
         line-height: 20px;
         letter-spacing: 8px;
+    }
+    .left_bottom h2{
+        font-size: 20px;
     }
 }
