@@ -27,7 +27,7 @@
         
     }
     .menu-icon:hover {
-        transition: .7s;
+        trans ion: .7s;
         background-color: rgba(255, 145, 0, 0.534);
     }
     
@@ -60,5 +60,8 @@
     }
     .left_bottom h2{
         font-size: 20px;
+    }
+    .project h1{
+        font-size: 200%;
     }
 }
