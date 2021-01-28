@@ -49,4 +49,13 @@
     .my_project{
         width: 50%;
     }
+    .my_project h3{
+        font-size: 100%;
+    }
+    .left h1{
+        font-size: 200%;
+        word-wrap: normal;
+        line-height: 20px;
+        letter-spacing: 8px;
+    }
 }
