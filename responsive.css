@@ -1,0 +1,46 @@
+@media(max-width: 1110px){
+    
+    .container img{
+        float: right;
+        width: 30%;
+    }
+    .left h1{
+        font-size: 300%;
+        word-wrap: normal;
+        line-height: 20px;
+        letter-spacing: 8px;
+    }
+}
+
+
+@media(max-width: 645px){
+    .header-right{
+        display: none;
+    }
+    
+    .menu-icon{
+        display: inline;
+        padding: 3% 5%;
+        
+    }
+    .menu-icon:hover {
+        transition: .7s;
+        background-color: rgba(255, 145, 0, 0.534);
+    }
+    
+    .header-right{
+        display: none;
+    }
+
+    .container img{
+        display: none;
+    }
+    .left h4{
+        letter-spacing: 1px;
+        font-size: 100%;
+        height: 20px;
+        width: 40%;
+        font-family: fantasy;
+        line-height: 15px;
+    }
+}
